@@ -7,7 +7,7 @@ describe('DataStorageService', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(DataStorageService);
+    
   });
 
   it('should be created', () => {

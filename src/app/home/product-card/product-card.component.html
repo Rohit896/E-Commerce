@@ -1,0 +1,33 @@
+<div class="product-grid grid">
+    <div class="product-image">
+      <a [routerLink]="['product-details', product.productId]">
+        <img class="pic-1" [src]="'/assets/product_images/' + product.image">
+      </a>
+      <ul class="social">
+        <li><a [routerLink]="['product-details', product.productId]" data-tip="Quick View"><i class="fa fa-eye"></i></a>
+        </li>
+      </ul>
+      <!-- <span class="product-new-label">New</span>
+              <span class="product-discount-label">-10%</span> -->
+    </div>
+    <div class="product-content">
+      
+      <h3 class="title">
+        <a [routerLink]="['product-details', product.productId]"><strong>
+            {{product.productName}}
+          </strong>
+        </a>
+      </h3>
+      <div class="price">
+        {{product.price}}
+      </div>
+  
+      <div class="row">
+        
+        
+      </div>
+      <!-- <button class="add-to-cart" (click)="onAddProductToCart()">ADD TO CART</button> -->
+     <!-- <app-add-to-cart [productId]="product.productId"  [isHomePage]="true">
+      </app-add-to-cart>-->
+    </div>
+  </div>

@@ -7,13 +7,10 @@ import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { RegisterComponent } from './register/register.component';
 import { HttpClientModule } from '@angular/common/http';
-import { LayoutComponent } from './layout/layout.component';
-import { AppHeaderComponent } from './layout/app-header/app-header.component';
-import { SmallCartComponent } from './layout/app-header/small-cart/small-cart.component';
-import { FiltersComponent } from './home/filters/filters.component';
-import { ProductListComponent } from './home/product-list/product-list.component';
-import { ProductCardComponent } from './home/product-list/product-card/product-card.component';
-import { MDBBootstrapModule } from 'angular-bootstrap-md'
+
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
+import { ProductCardComponent } from './home/product-card/product-card.component';
+import { ProductDetailsComponent } from './product-details/product-details.component'
 
 @NgModule({
   declarations: [
@@ -21,12 +18,8 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md'
     HomeComponent,
     RegisterComponent,
     LoginComponent,
-    LayoutComponent,
-    AppHeaderComponent,
-    SmallCartComponent,
-    FiltersComponent,
-    ProductListComponent,
-    ProductCardComponent
+    ProductCardComponent,
+    ProductDetailsComponent
   ],
   imports: [
     BrowserModule,

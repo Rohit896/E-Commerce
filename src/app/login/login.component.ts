@@ -25,7 +25,7 @@ export class LoginComponent implements OnInit {
      var login = new Login(this.email,this.password);
     this.dataStorage.loginValidation(login).subscribe(response=>{
         console.log(response);
-        this.router.navigate(['/products']);
+        this.router.navigate(['/home']);
     });
 }
 }
