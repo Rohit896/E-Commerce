@@ -1,0 +1,52 @@
+<section class="register-block">
+    <div class="container">
+            
+        <div class="row register-sec">
+            <div class="col-md-12 register-sec pb-0 pt-0">
+                    <h2 class="text-center">Register Now</h2>
+            </div>
+            
+                <div class="row">
+                    <div class="col-md-100 ">
+                        
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <label for="Name" class="text-uppercase">Name</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
+                            <input type="text" size="100" [(ngModel)]="name"/><br>
+                        <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <label for="Address" class="text-uppercase">Address</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="text" size="100" [(ngModel)]="address"/><br><br>
+                            
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <label for="Town" class="text-uppercase">City</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="text" size="100" [(ngModel)]="city"/><br><br>
+                        
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <label for="State" class="text-uppercase">State</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="text" size="100" [(ngModel)]="state"/><br><br>
+
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="Country" class="text-uppercase">Country</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="text" size="100" [(ngModel)]="country"/><br><br>
+
+                    
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="ZipCode" class="text-uppercase">Zip-Code</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="text" size="100" [(ngModel)]="Zipcode"/><br><br>
+                        
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="Email" class="text-uppercase">Email</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="email" size="100" [(ngModel)]="email"/><br><br>
+
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <label for="Mobile" class="text-uppercase">Mobile</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="text" size="100" [(ngModel)]="mobile"/><br><br>
+
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <label for="Password" class="text-uppercase">Password</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="password" size="100" [(ngModel)]="password"/> <br><br>
+                            
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="CreditCard" class="text-uppercase">Credit Card Number</label>&nbsp;&nbsp;&nbsp; &nbsp;
+                            <input type="text" size="89" [(ngModel)]="creditCard"/><br>   <br><br>
+                            
+                        <div>
+                            <button type="submit" class="btn btn-register float-right" (click)="submit()">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            
+            
+        </div>
+    </div>
+</section>
